@@ -1,0 +1,45 @@
+<html>
+  <head>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/tourHack.css"/>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  </head>
+  <body>
+      <div class="container">
+          <div class="row">
+              <div class="form-group">
+                  <form action="Javascript:activity()">
+                      <div class="col-sm-1"></div>
+                      <label class="col-sm-1 control-label">Activity:</label>
+                      <div class="col-sm-2">
+                          <input class="form-control" id="activity" type="text">
+                      </div>
+                      <label class="col-sm-1 control-label">Year:</label>
+                      <div class="col-sm-2">
+                          <input class="form-control" id="year" type="text" >
+                      </div>
+                      <div class="col-sm-1">
+                          <button type="submit" value="Submit" class="btn btn-primary">That's it</button>
+                      </div>
+                  </form>
+              </div>
+
+              <div id="results"> </div>
+              <div id="attribution"> </div>
+              <div id="debug"> </div>
+          </div>
+          <div class="row">
+              <div class="col-sm-1"></div>
+              <div class="col-sm-10">
+                  <div id="regions_div"></div>
+              </div>
+              <div class="col-sm-1"></div>
+          </div>    
+      </div>
+      <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+      <script type="text/javascript" src="javascript/activity.js"></script>
+  </body>
+</html>
